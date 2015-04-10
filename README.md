@@ -1,1 +1,4 @@
 # Kaggle-Avazu-Competition
+This repository contains some files used in the Kaggle Avazu click-through rate prediction contest to generate a single vowpal-wabbit model that scores ~0.393 on the private leaderboard. There are three files: a python script for munging the data, a python script for writing the predictions to a csv file suitable for submission to kaggle, and a shell script for running the python scripts, generating the model, and making the predictions.
+
+The model scores 0.3952868 on the public leaderboard, and 0.3934794 on the private leaderboard, which places in the top 25%. Better results can be optained with further tuning or by ensembling.
